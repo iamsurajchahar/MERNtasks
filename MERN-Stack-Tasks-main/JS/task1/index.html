@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TASK 1</title>
+  </head>
+  <style type="text/css">
+    div {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+    }
+  </style>
+  <body>
+    <div>
+      <button onclick="document.getElementById('demo').innerHTML=res">
+      show date
+    </button>
+
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo2').innerHTML=Date()">
+        show date
+      </button>
+    <p id="demo2"></p>
+    </div>
+    <script>
+        const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        var dt = new Date();
+        let res=+ dt.getDate()+"/"+month[dt.getMonth()] + "/" +dt.getFullYear() ;
+    </script>
+  </body>
+</html>

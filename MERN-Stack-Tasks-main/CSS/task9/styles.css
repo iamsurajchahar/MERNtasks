@@ -1,0 +1,11 @@
+div#outerbox{
+    border: 5px solid black;
+    width: 33%;
+    margin: 100px auto;
+}
+
+div#innerbox{
+    margin: 40px;
+    padding: 0px;
+    background-color: yellow;
+}

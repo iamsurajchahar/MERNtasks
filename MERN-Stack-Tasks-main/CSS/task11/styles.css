@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(242, 231, 24);
+    padding: 30px 30px 30px 80px;
+    width: 80%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+li{
+    background-color: white;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+}
+
+span{
+    border: 2px solid black;
+    float: right;
+    height: 35px;
+    margin: -10px;
+    width: 20px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: inline-block;
+    width: 30%;
+
+}
+
+.content{
+    display: inline-block;
+    width: 60%;
+    color: rgb(175, 1, 175);
+}

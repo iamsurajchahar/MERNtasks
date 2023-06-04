@@ -1,0 +1,13 @@
+.container{
+    margin: 100px auto;
+    width: 20%;
+}
+div.t1::before{
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+    height: 15px;
+    width: 20px;
+    background-image: url("download.jpeg");
+    background-size: contain;
+}

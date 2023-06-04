@@ -1,0 +1,45 @@
+#container{
+    margin: 100px auto;
+    height: 400px;
+    padding: 20px;
+    width: 800px;
+}
+#row1,#row2,#row3{
+    height: 100px;
+    margin: 15px auto;
+}
+.left,.center,.right{
+    border: 2px solid black;
+    height: 80px;
+    width: 15%;
+    margin: 7px 80px 0px 60px;
+    display: inline-block;
+    background-color: #726dcf;
+}
+#t5-1{
+    border-radius: 7px;
+}
+#t5-2{
+    border-radius: 15px;
+}
+#t5-3{
+    border-radius: 22px;
+}
+#t5-4{
+    border-radius: 12px;
+}
+#t5-5{
+    border-radius: 5px;
+}
+#t5-6{
+    border-radius: 25px;
+}
+#t5-7{
+    border-radius: 50%;
+}
+#t5-8{
+    border-radius: 12px;
+}
+#t5-9{
+    border-radius: 5px 35px;
+}

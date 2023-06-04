@@ -1,0 +1,26 @@
+.container{
+    margin: 100px auto;
+    width: 20%;
+}
+div{
+    text-align: center;
+}
+nav.vertical ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    line-height: 20px;
+    width: 150px;
+    background-color: rgb(183, 233, 247);
+    border: 2px solid black;
+}
+li a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    background-color: rgb(226, 150, 43);
+    color: whitesmoke;
+}

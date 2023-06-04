@@ -1,0 +1,26 @@
+.gr{
+    background-color: #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input-group-text{
+    margin-left: 10px;
+}
+.frm{
+    margin-top: 30px;
+}
+.lbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cust-width{
+    width: 10px;
+}
+.btn{
+    margin-top: 20px;
+}

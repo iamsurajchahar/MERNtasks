@@ -1,0 +1,14 @@
+#top-img{
+    width: 350px;
+}
+
+#imageText{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: white;
+}
+
+.logo{
+    width: 20px;
+}

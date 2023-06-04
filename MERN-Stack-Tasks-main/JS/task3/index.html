@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TASK 7</title>
+	<style type="text/css">
+		div {
+			position: fixed;
+      		top: 50%;
+      		left: 50%;
+      		transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+        <form name="myForm" onsubmit="return validateForm()" method="post" autocomplete="off">
+            <table>
+                <tr>
+                    <td style="width: 150px;">Name:</td>
+                    <td><input type="text" name="name" required><p id="name"></p></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required><p id="email"></p></td>
+                </tr>
+                <tr>
+                    <td>Website:</td>
+                    <td><input type="url" name="url" required><p id="url"></p></td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea type="textarea" name="message" required></textarea><p id="message"></p></td>
+                </tr>
+            
+                <tr>
+                    <td align="center"><button >Submit</button></td>
+                </tr>
+            </table>
+        </form>
+		
+	</div>
+
+<script>
+    function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  let y = document.forms["myForm"]["email"].value;
+  let z = document.forms["myForm"]["url"].value;
+  let a = document.forms["myForm"]["message"].value;
+
+  if (x == "") {
+    document.getElementById("name").innerHTML="This field is required.";
+    return false;
+  }
+  if (y== "") {
+    document.getElementById("email").innerHTML="A valid email address is required.";
+    return false;
+  }
+  if (z == "") {
+    document.getElementById("url").innerHTML="A valid url is required.";
+    return false;
+  }
+  if (a == "") {
+    document.getElementById("message").innerHTML="This field is required.";
+    return false;
+  }
+}
+
+</script>
+</body>
+</html>

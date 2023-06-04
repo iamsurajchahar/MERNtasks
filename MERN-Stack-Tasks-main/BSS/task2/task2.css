@@ -1,0 +1,24 @@
+:root{
+    --row-height: 50px;
+}
+
+.ttl{
+    text-align: center;
+    background-color: blue;
+    height: 50px;
+}
+.nav{
+    background-color: rgb(111, 111, 111);
+    color: white;
+}
+.content{
+    text-align: center;
+}
+.c2{
+    text-align: center;
+    background-color: rgb(149, 149, 149);
+    color: white;
+}
+.rest{
+    height: calc(100vh - var(--row-height));
+}
